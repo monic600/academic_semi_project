@@ -2,10 +2,15 @@ package com.mini.view;
 
 import java.util.Scanner;
 
+import com.mini.dto.MemberDTO;
+
+
 public class BucketView {
 	
 	public void bucketMainView() {
 		//private Controller ct = new Controller();
+		MemberDTO mem = new MemberDTO();
+		
 		Scanner sc = new Scanner(System.in);
 		int menu;
 		
@@ -25,7 +30,9 @@ public class BucketView {
 			
 			switch(menu) {
 			case 1: 
-				System.out.println();
+				for(int i=0; i < mem.slist().size; i++ ) {
+					
+				}
 				break;
 			case 2: 
 				//selectProduct();

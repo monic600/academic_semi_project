@@ -83,8 +83,11 @@ public class MemberDTO {
 	
 	ArrayList<ProductDTO> sList = new ArrayList<>();
 	
+	
 	public void slist() {
-		
+		sList.add(new ProductDTO("스킨", 7000));
+		sList.add(new ProductDTO("로션", 5000));
+		sList.add(new ProductDTO("에센스", 20000));
 		
 	}
 	
